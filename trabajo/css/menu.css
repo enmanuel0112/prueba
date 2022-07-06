@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body{
+    padding: 0;
+    margin: 0;
+  }
+
+header{
+    width: 100%;
+    background-color: rgb(95, 69, 45, 0.3);
+    height: 10vh;
+    position: absolute;
+ 
+}
+header a{
+    text-decoration: none;
+   
+}
+
+h1{
+    max-width: 50%;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    margin: auto;
+}
+
+h1 span{
+    color: rgb(95, 69, 45);
+}
+
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.side-bar{
+  background: linear-gradient(100deg, rgb(197, 150, 97, 0.5), rgb(185, 134, 85));
+  height: 70vh;
+  margin: auto;
+  margin-top: 2.1rem;
+
+  
+}
+.side-bar a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 8px;
+}
